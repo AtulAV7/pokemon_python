@@ -48,4 +48,5 @@ body {
 .DisplaySection {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
