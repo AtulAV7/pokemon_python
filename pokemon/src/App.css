@@ -58,3 +58,17 @@ body {
 .DisplaySection img {
   width: 200px;
 }
+
+@media (min-width: 360px) {
+  .mobile{
+    font-size: 46px;
+  }
+  .mobile1{
+    font-size: 100%;
+  }
+}
+@media screen {
+  .mobile1{
+    font-size: 100%;
+  }
+}

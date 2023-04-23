@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="App">
       <div className="TitleSection">
-        <h1>Pokemon Stats</h1>
+        <h1 className="mobile">Pokemon Stats</h1>
         <input
          type="text"
          onChange={(event) => {
@@ -46,7 +46,7 @@ function App() {
       </div>
       <div className="DisplaySection">
         {!pokemonChosen ? (
-          <h1> Please choose a Pokemon</h1>
+          <h1 className="mobile1"> Please choose a Pokemon</h1>
         ) : (
           <>
             <h1>{pokemon.name}</h1>
